@@ -5,7 +5,7 @@ Note that the scrip currently only works in fullscreen on a screen-resolution of
 I haven't yet tested other screen sizes nor have I created the playthroughs for them.
 
 # Usage
-- diconnect your device from the internet otherwise it will get interupted by the "Open Box"-screen and cease to work
+- disconnect your device from the internet (otherwise it will get interupted by the "Open Box"-screen and cease to work)
 - start your game and go to the Lobby
 - run the following command:
 ```
