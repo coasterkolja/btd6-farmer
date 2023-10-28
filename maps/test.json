@@ -1,0 +1,16 @@
+[
+    [
+        {
+            "id": "dart",
+            "monkey": "DartMonkey",
+            "posX": 1127,
+            "posY": 702
+        },
+        {
+            "id": "ninja",
+            "monkey": "NinjaMonkey",
+            "posX": 1165,
+            "posY": 843
+        }
+    ]
+]
