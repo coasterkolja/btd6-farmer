@@ -1,0 +1,121 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 883,
+            "posY": 650
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 918,
+            "posY": 1049
+        },
+        {
+            "id": "druid1",
+            "tower": "Druid",
+            "posX": 301,
+            "posY": 329
+        },
+        {
+            "id": "druid2",
+            "tower": "Druid",
+            "posX": 1427,
+            "posY": 391
+        },
+        {
+            "id": "spike",
+            "tower": "SpikeFactory",
+            "posX": 705,
+            "posY": 684
+        },
+        {
+            "id": "druid3",
+            "tower": "Druid",
+            "posX": 140,
+            "posY": 338
+        }
+    ],
+    [
+        {
+            "action": "place",
+            "id": "dart"
+        },
+        {
+            "action": "start"
+        },
+        {
+            "action": "wait",
+            "time": 14
+        },
+        {
+            "action": "place",
+            "id": "ben"
+        },
+        {
+            "action": "wait",
+            "time": 23
+        },
+        {
+            "action": "place",
+            "id": "druid1"
+        },
+        {
+            "action": "wait",
+            "time": 8
+        },
+        {
+            "action": "place",
+            "id": "druid2"
+        },
+        {
+            "action": "wait",
+            "time": 15
+        },
+        {
+            "action": "place",
+            "id": "spike"
+        },
+        {
+            "action": "wait",
+            "time": 47
+        },
+        {
+            "action": "upgrade",
+            "id": "druid1",
+            "upgrades": "1-3-0"
+        },
+        {
+            "action": "wait",
+            "time": 30
+        },
+        {
+            "action": "upgrade",
+            "id": "druid2",
+            "upgrades": "1-3-0"
+        },
+        {
+            "action": "wait",
+            "time": 58
+        },
+        {
+            "action": "upgrade",
+            "id": "spike",
+            "upgrades": "3-2-0"
+        },
+        {
+            "action": "wait",
+            "time": 90
+        },
+        {
+            "action": "place",
+            "id": "druid3"
+        },
+        {
+            "action": "upgrade",
+            "id": "druid3",
+            "upgrades": "1-3-0"
+        }
+    ]
+]

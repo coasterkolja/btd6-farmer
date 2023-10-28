@@ -1,0 +1,54 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 659,
+            "posY": 479
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 1143,
+            "posY": 477
+        },
+        {
+            "id": "sub",
+            "tower": "MonkeySub",
+            "posX": 961,
+            "posY": 672
+        },
+        {
+            "id": "druid",
+            "tower": "Druid",
+            "posX": 664,
+            "posY": 730
+        },
+        {
+            "id": "wizard",
+            "tower": "WizardMonkey",
+            "posX": 1004,
+            "posY": 480
+        }
+    ],
+    [
+        { "action": "place", "id": "dart" },
+        { "action": "place", "id": "sub" },
+        { "action": "start" },
+        { "action": "wait", "time": 16 },
+        { "action": "place", "id": "ben" },
+        { "action": "wait", "time": 28 },
+        { "action": "upgrade", "id": "sub", "upgrades": "2-0-1"},
+        { "action": "wait", "time": 31},
+        { "action": "place", "id": "wizard"},
+        { "action": "wait", "time": 12 },
+        { "action": "upgrade", "id": "wizard", "upgrades": "1-2-0"},
+        { "action": "wait", "time": 13 },
+        { "action": "upgrade", "id": "dart", "upgrades": "0-0-2"},
+        { "action": "wait", "time": 35 },
+        { "action": "upgrade", "id": "sub", "upgrades": "2-0-3"},
+        { "action": "wait", "time": 24 },
+        { "action": "place", "id": "druid" },
+        { "action": "upgrade", "id": "druid", "upgrades": "1-3-0"}
+    ]
+]

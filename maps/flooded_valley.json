@@ -1,0 +1,101 @@
+[
+    [
+        {
+            "id": "buc",
+            "tower": "BuccaneerMonkey",
+            "posX": 995,
+            "posY": 859
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 493,
+            "posY": 616
+        },
+        {
+            "id": "sub",
+            "tower": "MonkeySub",
+            "posX": 1030,
+            "posY": 760
+        }
+    ],
+    [
+        {
+            "action": "place",
+            "id": "buc"
+        },
+        {
+            "action": "start"
+        },
+        {
+            "action": "wait",
+            "time": 22
+        },
+        {
+            "action": "place",
+            "id": "ben"
+        },
+        {
+            "action": "wait",
+            "time": 14
+        },
+        {
+            "action": "upgrade",
+            "id": "buc",
+            "upgrades": "0-1-0"
+        },
+        {
+            "action": "wait",
+            "time": 3
+        },
+        {
+            "action": "upgrade",
+            "id": "buc",
+            "upgrades": "1-1-0"
+        },
+        {
+            "action": "wait",
+            "time": 18
+        },
+        {
+            "action": "upgrade",
+            "id": "buc",
+            "upgrades": "2-1-0"
+        },
+        {
+            "action": "wait",
+            "time": 12
+        },
+        {
+            "action": "upgrade",
+            "id": "buc",
+            "upgrades": "2-2-0"
+        },
+        {
+            "action": "wait",
+            "time": 56
+        },
+        {
+            "action": "upgrade",
+            "id": "buc",
+            "upgrades": "3-2-0"
+        },
+        {
+            "action": "wait",
+            "time": 20
+        },
+        {
+            "action": "place",
+            "id": "sub"
+        },
+        {
+            "action": "wait",
+            "time": 27
+        },
+        {
+            "action": "upgrade",
+            "id": "sub",
+            "upgrades": "4-2-0"
+        }
+    ]
+]

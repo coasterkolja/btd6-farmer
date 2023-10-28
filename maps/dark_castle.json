@@ -1,0 +1,46 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 565,
+            "posY": 677
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 1436,
+            "posY": 262
+        },
+        {
+            "id": "wizard",
+            "tower": "WizardMonkey",
+            "posX": 853,
+            "posY": 724
+        },
+        {
+            "id": "spike",
+            "tower": "SpikeFactory",
+            "posX": 1526,
+            "posY": 616
+        }
+    ],
+    [
+        { "action": "place", "id": "dart" },
+        { "action": "start" },
+        { "action": "wait", "time": 9 },
+        { "action": "place", "id": "ben" },
+        { "action": "wait", "time": 12 },
+        { "action": "place", "id": "wizard" },
+        { "action": "wait", "time": 35 },
+        { "action": "upgrade", "id": "wizard", "upgrades": "1-2-0" },
+        { "action": "wait", "time": 15 },
+        { "action": "place", "id": "spike" },
+        { "action": "wait", "time": 32 },
+        { "action": "upgrade", "id": "spike", "upgrades": "0-2-0"},
+        { "action": "wait", "time": 27 },
+        { "action": "upgrade", "id": "spike", "upgrades": "2-2-0"},
+        { "action": "wait", "time": 32 },
+        { "action": "upgrade", "id": "spike", "upgrades": "3-2-0"}
+    ]
+]

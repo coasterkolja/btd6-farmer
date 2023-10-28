@@ -1,0 +1,129 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 1012,
+            "posY": 561
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 1406,
+            "posY": 402
+        },
+        {
+            "id": "wizard",
+            "tower": "WizardMonkey",
+            "posX": 508,
+            "posY": 557
+        },
+        {
+            "id": "spike1",
+            "tower": "SpikeFactory",
+            "posX": 1598,
+            "posY": 693
+        },
+        {
+            "id": "spike2",
+            "tower": "SpikeFactory",
+            "posX": 1599,
+            "posY": 772
+        }
+    ],
+    [
+        {
+            "action": "place",
+            "id": "dart"
+        },
+        {
+            "action": "start"
+        },
+        {
+            "action": "wait",
+            "time": 9
+        },
+        {
+            "action": "place",
+            "id": "ben"
+        },
+        {
+            "action": "wait",
+            "time": 10
+        },
+        {
+            "action": "place",
+            "id": "wizard"
+        },
+        {
+            "action": "wait",
+            "time": 12
+        },
+        {
+            "action": "upgrade",
+            "id": "wizard",
+            "upgrades": "1-1-0"
+        },
+        {
+            "action": "wait",
+            "time": 13
+        },
+        {
+            "action": "upgrade",
+            "id": "wizard",
+            "upgrades": "1-2-0"
+        },
+        {
+            "action": "wait",
+            "time": 21
+        },
+        {
+            "action": "place",
+            "id": "spike1"
+        },
+        {
+            "action": "wait",
+            "time": 22
+        },
+        {
+            "action": "place",
+            "id": "spike2"
+        },
+        {
+            "action": "wait",
+            "time": 25
+        },
+        {
+            "action": "upgrade",
+            "id": "spike1",
+            "upgrades": "1-0-2"
+        },
+        {
+            "action": "wait",
+            "time": 21
+        },
+        {
+            "action": "upgrade",
+            "id": "spike2",
+            "upgrades": "1-0-2"
+        },
+        {
+            "action": "wait",
+            "time": 1
+        },
+        {
+            "action": "target",
+            "id": "spike1",
+            "count": 1
+        },
+        {
+            "action": "wait",
+            "time": 1
+        },
+        {
+            "action": "target",
+            "id": "spike2",
+            "count": 1
+        }
+    ]
+]

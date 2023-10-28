@@ -1,0 +1,106 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 824,
+            "posY": 757
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 1210,
+            "posY": 910
+        },
+        {
+            "id": "sub",
+            "tower": "MonkeySub",
+            "posX": 1197,
+            "posY": 317
+        },
+        {
+            "id": "druid",
+            "tower": "Druid",
+            "posX": 821,
+            "posY": 439
+        }
+    ],
+    [
+        {
+            "action": "place",
+            "id": "dart"
+        },
+        {
+            "action": "start"
+        },
+        {
+            "action": "wait",
+            "time": 17
+        },
+        {
+            "action": "place",
+            "id": "ben"
+        },
+        {
+            "action": "wait",
+            "time": 18
+        },
+        {
+            "action": "place",
+            "id": "sub"
+        },
+        {
+            "action": "wait",
+            "time": 16
+        },
+        {
+            "action": "place",
+            "id": "druid"
+        },
+        {
+            "action": "wait",
+            "time": 50
+        },
+        {
+            "action": "upgrade",
+            "id": "druid",
+            "upgrades": "1-3-0"
+        },
+        {
+            "action": "wait",
+            "time": 33
+        },
+        {
+            "action": "upgrade",
+            "id": "sub",
+            "upgrades": "2-0-2"
+        },
+        {
+            "action": "wait",
+            "time": 26
+        },
+        {
+            "action": "upgrade",
+            "id": "dart",
+            "upgrades": "0-2-3"
+        },
+        {
+            "action": "wait",
+            "time": 28
+        },
+        {
+            "action": "upgrade",
+            "id": "sub",
+            "upgrades": "2-0-3"
+        },
+        {
+            "action": "wait",
+            "time": 17
+        },
+        {
+            "action": "upgrade",
+            "id": "sub",
+            "upgrades": "2-0-4"
+        }
+    ]
+]

@@ -1,0 +1,113 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 751,
+            "posY": 333
+        },
+        {
+            "id": "spike",
+            "tower": "SpikeFactory",
+            "posX": 831,
+            "posY": 342
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 821,
+            "posY": 201
+        },
+        {
+            "id": "sniper",
+            "tower": "SniperMonkey",
+            "posX": 745,
+            "posY": 1053
+        },
+        {
+            "id": "wizard1",
+            "tower": "WizardMonkey",
+            "posX": 395,
+            "posY": 500
+        },
+        {
+            "id": "wizard2",
+            "tower": "WizardMonkey",
+            "posX": 1246,
+            "posY": 498
+        }
+    ],
+    [
+        {
+            "action": "place",
+            "id": "dart"
+        },
+        {
+            "action": "start"
+        },
+        {
+            "action": "wait",
+            "time": 16
+        },
+        {
+            "action": "place",
+            "id": "ben"
+        },
+        {
+            "action": "wait",
+            "time": 17
+        },
+        {
+            "action": "place",
+            "id": "sniper"
+        },
+        {
+            "action": "wait",
+            "time": 19
+        },
+        {
+            "action": "place",
+            "id": "spike"
+        },
+        {
+            "action": "wait",
+            "time": 33
+        },
+        {
+            "action": "upgrade",
+            "id": "spike",
+            "upgrades": "1-0-2"
+        },
+        {
+            "action": "target",
+            "id": "spike",
+            "count": 3
+        },
+        {
+            "action": "wait",
+            "time": 43
+        },
+        {
+            "action": "place",
+            "id": "wizard1"
+        },
+        {
+            "action": "upgrade",
+            "id": "wizard1",
+            "upgrades": "1-2-0"
+        },
+        {
+            "action": "wait",
+            "time": 25
+        },
+        {
+            "action": "place",
+            "id": "wizard2"
+        },
+        {
+            "action": "upgrade",
+            "id": "wizard2",
+            "upgrades": "1-2-0"
+        }
+    ]
+]

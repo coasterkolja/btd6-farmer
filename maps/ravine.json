@@ -1,0 +1,53 @@
+[
+    [
+        {
+            "id": "dart",
+            "tower": "DartMonkey",
+            "posX": 1346,
+            "posY": 345
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 688,
+            "posY": 159
+        },
+        {
+            "id": "druid1",
+            "tower": "Druid",
+            "posX": 819,
+            "posY": 1048
+        },
+        {
+            "id": "druid2",
+            "tower": "Druid",
+            "posX": 254,
+            "posY": 740
+        },
+        {
+            "id": "spike",
+            "tower": "SpikeFactory",
+            "posX": 723,
+            "posY": 880
+        }
+    ],
+    [
+        { "action": "place", "id": "dart" },
+        { "action": "start" },
+        { "action": "wait", "time": 8 },
+        { "action": "place", "id": "ben" },
+        { "action": "wait", "time": 11 },
+        { "action": "place", "id": "druid1" },
+        { "action": "wait", "time": 13 },
+        { "action": "place", "id": "druid2" },
+        { "action": "wait", "time": 18 },
+        { "action": "place", "id": "spike" },
+        { "action": "wait", "time": 35 },
+        { "action": "upgrade", "id": "spike", "upgrades": "1-0-2" },
+        { "action": "target", "id": "spike", "count": 3 },
+        { "action": "wait", "time": 44 },
+        { "action": "upgrade", "id": "druid2", "upgrades": "1-3-0" },
+        { "action": "wait", "time": 30 },
+        { "action": "upgrade", "id": "druid1", "upgrades": "1-3-0" }
+    ]
+]

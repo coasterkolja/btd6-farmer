@@ -1,0 +1,56 @@
+[
+    [
+        {
+            "id": "dart1",
+            "tower": "DartMonkey",
+            "posX": 370,
+            "posY": 229
+        },
+        {
+            "id": "dart2",
+            "tower": "DartMonkey",
+            "posX": 1219,
+            "posY": 981
+        },
+        {
+            "id": "ben",
+            "tower": "Hero",
+            "posX": 855,
+            "posY": 646
+        },
+        {
+            "id": "sub",
+            "tower": "MonkeySub",
+            "posX": 1193,
+            "posY": 537
+        },
+        {
+            "id": "druid",
+            "tower": "Druid",
+            "posX": 904,
+            "posY": 503
+        }
+    ],
+    [
+        { "action": "place", "id": "dart1" },
+        { "action": "place", "id": "sub" },
+        { "action": "start" },
+        { "action": "wait", "time": 18},
+        { "action": "place", "id": "ben" },
+        { "action": "wait", "time": 27},
+        { "action": "upgrade", "id": "sub", "upgrades": "2-0-0"},
+        { "action": "wait", "time": 16},
+        { "action": "place", "id": "druid"},
+        { "action": "wait", "time": 27},
+        { "action": "upgrade", "id": "druid", "upgrades": "1-3-0"},
+        { "action": "wait", "time": 11},
+        { "action": "upgrade", "id": "dart1", "upgrades": "0-0-2"},
+        { "action": "wait", "time": 9},
+        { "action": "place", "id": "dart2" },
+        { "action": "upgrade", "id": "dart2", "upgrades": "0-0-2"},
+        { "action": "wait", "time": 11},
+        { "action": "upgrade", "id": "sub", "upgrades": "2-0-2"},
+        { "action": "wait", "time": 12},
+        { "action": "upgrade", "id": "sub", "upgrades": "2-0-3"}        
+    ]
+]
