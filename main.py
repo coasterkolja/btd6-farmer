@@ -4,8 +4,11 @@ import keyboard
 import pyautogui
 import threading
 
-paths = {1: "left shift", 2: "alt", 3: "ctrl"}
 hotkeys = {
+    "path_1": "left shift",
+    "path_2": "alt",
+    "path_3": "ctrl",
+
     "Hero": "u",
 
     "DartMonkey": "q",
@@ -35,8 +38,7 @@ hotkeys = {
     "MonkeyEngineer": "l",
     "BeastHandler": "i",
 }
-towers = []
-
+resolution = "1900x1200"
 events = {
     "candy": "images/candy.png",
     "totem": "",
@@ -73,7 +75,7 @@ def getTowerById(tower_id):
     return result
 
 def getData(map_file):
-    path = "maps/" + map_file + ".json"
+    path = f"playthroughs/{resolution}/maps/" + map_file + ".json"
     with open(path, 'r') as json_datei:
         data = json.load(json_datei)
     
@@ -130,13 +132,13 @@ def upgradeTower(tower_id, targeted_upgrades):
     time.sleep(0.05)
 
     for i in range(upgrades_p1):
-        press(paths[1])
+        press(hotkeys[f"path_1"])
         time.sleep(0.2)
     for i in range(upgrades_p2):
-        press(paths[2])
+        press(hotkeys[f"path_2"])
         time.sleep(0.2)
     for i in range(upgrades_p3):
-        press(paths[3])
+        press(hotkeys[f"path_3"])
         time.sleep(0.2)
     
     towers[tower["index"]]["upgrades"] = targeted_upgrades
@@ -332,6 +334,7 @@ time.sleep(3)
 
 for i in range(100):
     status = "stop"
+    towers = []
 
     print(f"SPIEL {i+1}")
 
